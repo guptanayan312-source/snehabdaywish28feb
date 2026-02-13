@@ -1,279 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNWMBH63LE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZNWMBH63LE');
-</script>
-    <link rel="icon" type="image/x-icon" href="bday.ico">
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Welcome Sneha — Happy Birthday</title>
-	<style>
-		:root{--bg1:#F8ECFF;--bg2:#FFF0FB;--accent:#A55CFF;--accent2:#FF86D6;--card:#ffffff}
-		*{box-sizing:border-box}
-		html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
-		body{background:radial-gradient(1200px 600px at 10% 10%,rgba(165,92,255,0.06),transparent),linear-gradient(180deg,var(--bg1),var(--bg2));display:flex;align-items:center;justify-content:center;padding:32px}
-		.card{width:100%;max-width:1100px;background:var(--card);border-radius:18px;padding:36px 44px;box-shadow:0 30px 80px rgba(80,36,120,0.08);position:relative;overflow:hidden}
-		h1{font-size:52px;margin:0 0 6px 0;text-align:center;color:var(--accent);font-weight:800}
-		.subtitle{color:#2f2f2f;text-align:center;margin:0 0 18px 0;font-weight:600}
-		.small{color:#6b6b6b;text-align:center;margin-bottom:28px}
-		.countdown{display:flex;gap:18px;justify-content:center;margin-bottom:22px}
-		.timebox{background:linear-gradient(180deg,rgba(255,255,255,0.98),rgba(250,246,255,0.95));border-radius:12px;padding:18px 22px;min-width:100px;text-align:center;box-shadow:0 8px 30px rgba(165,92,255,0.06)}
-		/* floating emoji balloons */
-		.float-balloons{position:fixed;inset:0;pointer-events:none;z-index:1}
-		.float{position:absolute;display:inline-flex;align-items:center;justify-content:center;opacity:0.98;transform-origin:center bottom;text-shadow:0 8px 22px rgba(165,92,255,0.06)}
-		.float svg{width:92px;height:auto;display:block}
-		.balloon1{left:6%;bottom:-10vh;animation:floatUp 14s linear infinite}
-		.balloon2{left:22%;bottom:-8vh;animation:floatUp 12.5s linear .8s infinite}
-		.balloon3{left:42%;bottom:-12vh;animation:floatUp 13s linear .4s infinite}
-		.balloon4{right:18%;bottom:-9vh;animation:floatUp 15s linear .2s infinite}
-		.balloon5{right:6%;bottom:-11vh;animation:floatUp 12s linear .6s infinite}
-		@keyframes floatUp{0%{transform:translateY(0) rotate(-6deg)}100%{transform:translateY(-140vh) rotate(8deg)}}
-		/* smaller emojis on narrow screens */
-		@media(max-width:720px){
-			.float{font-size:44px}
-		}
-		.timebox .num{font-size:22px;font-weight:800;color:#111}
-		.timebox .lbl{font-size:13px;color:#8a8a8a;margin-top:6px}
-		#celebrateBtn{display:inline-block;margin:14px auto 8px auto;padding:14px 28px;border-radius:999px;border:none;background:linear-gradient(90deg,var(--accent),var(--accent2));color:white;font-size:20px;cursor:pointer;box-shadow:0 14px 36px rgba(165,92,255,0.18)}
-		.message{max-width:760px;margin:18px auto 6px auto;text-align:center;color:#333}
-		.gift{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:18px}
-		.cake{font-size:40px}
-		.footer{font-size:14px;color:#666;text-align:center}
-		.balloon{position:absolute;width:90px;height:110px;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;opacity:.95}
-		.b1{left:40px;bottom:18px;background:#FFD3B6}
-		.b2{left:120px;bottom:8px;background:#FFAAA7}
-		.b3{right:80px;bottom:28px;background:#C8E7FF}
-		.confetti-canvas{position:fixed;left:0;top:0;pointer-events:none;z-index:9999}
-		@media(max-width:720px){
-			h1{font-size:32px}
-			.card{padding:20px}
-			.countdown{flex-wrap:wrap;gap:10px}
-			.timebox{min-width:72px;padding:12px 14px}
-			#celebrateBtn{width:100%;font-size:18px;padding:12px 18px}
-			#modal{max-width:92%}
-		}
-
-		/* small banner */
-		.banner{display:flex;justify-content:center;margin-bottom:14px}
-		.ribbon{background:linear-gradient(90deg,var(--accent),var(--accent2));color:white;padding:8px 18px;border-radius:999px;font-weight:700;box-shadow:0 10px 30px rgba(165,92,255,0.12)}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Notice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0d0b1d 0%, #1a1a2e 50%, #16213e 100%);
+            color: #f0f0f0;
+            font-family: 'Inter', 'Poppins', 'Montserrat', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+        }
+        .divider {
+            height: 1px;
+            background: #444;
+            margin: 20px 0;
+        }
+        .contact a.whatsapp-button,
+        .contact a.instagram-button {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 5px 0;
+            color: #f0f0f0;
+            background: #2e1a47;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .contact a.whatsapp-button:hover,
+        .contact a.instagram-button:hover {
+            background: #442b78;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-	<!-- decorative floating emoji balloons -->
-	<div class="float-balloons" aria-hidden="true">
-		<span class="float balloon1" aria-hidden="true">
-			<svg viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg" role="img">
-				<defs>
-					<linearGradient id="g1" x1="0" x2="1">
-						<stop offset="0" stop-color="#A55CFF"/>
-						<stop offset="1" stop-color="#FF86D6"/>
-					</linearGradient>
-				</defs>
-				<ellipse cx="40" cy="36" rx="28" ry="34" fill="url(#g1)" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-				<path d="M40 70 L40 100" stroke="rgba(0,0,0,0.24)" stroke-width="1" stroke-linecap="round"/>
-			</svg>
-		</span>
-		<span class="float balloon2" aria-hidden="true">
-			<svg viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg" role="img">
-				<defs>
-					<linearGradient id="g2" x1="0" x2="1">
-						<stop offset="0" stop-color="#FF86D6"/>
-						<stop offset="1" stop-color="#FFD8A8"/>
-					</linearGradient>
-				</defs>
-				<ellipse cx="40" cy="36" rx="26" ry="32" fill="url(#g2)" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
-				<path d="M40 68 L40 98" stroke="rgba(0,0,0,0.18)" stroke-width="1" stroke-linecap="round"/>
-			</svg>
-		</span>
-		<span class="float balloon3" aria-hidden="true">
-			<svg viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg" role="img">
-				<defs>
-					<linearGradient id="g3" x1="0" x2="1">
-						<stop offset="0" stop-color="#6BCBFF"/>
-						<stop offset="1" stop-color="#C77DFF"/>
-					</linearGradient>
-				</defs>
-				<ellipse cx="40" cy="36" rx="28" ry="34" fill="url(#g3)" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
-				<path d="M40 72 L40 102" stroke="rgba(0,0,0,0.18)" stroke-width="1" stroke-linecap="round"/>
-			</svg>
-		</span>
-		<span class="float balloon4" aria-hidden="true">
-			<svg viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg" role="img">
-				<defs>
-					<linearGradient id="g4" x1="0" x2="1">
-						<stop offset="0" stop-color="#FFD8A8"/>
-						<stop offset="1" stop-color="#A55CFF"/>
-					</linearGradient>
-				</defs>
-				<ellipse cx="40" cy="36" rx="26" ry="32" fill="url(#g4)" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
-				<path d="M40 68 L40 98" stroke="rgba(0,0,0,0.18)" stroke-width="1" stroke-linecap="round"/>
-			</svg>
-		</span>
-		<span class="float balloon5" aria-hidden="true">
-			<svg viewBox="0 0 80 110" xmlns="http://www.w3.org/2000/svg" role="img">
-				<defs>
-					<linearGradient id="g5" x1="0" x2="1">
-						<stop offset="0" stop-color="#C77DFF"/>
-						<stop offset="1" stop-color="#6BCBFF"/>
-					</linearGradient>
-				</defs>
-				<ellipse cx="40" cy="36" rx="28" ry="34" fill="url(#g5)" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
-				<path d="M40 72 L40 102" stroke="rgba(0,0,0,0.18)" stroke-width="1" stroke-linecap="round"/>
-			</svg>
-		</span>
-	</div>
-
-	<div class="card">
-		<div class="banner"><div class="ribbon">Happy Birthday</div></div>
-		<h1>Welcome Sneha</h1>
-		<p class="subtitle">This page is made by Nayan for you — for your birthday on 28 Feb 2026</p>
-		<p class="small">A little surprise to count down together and celebrate your bday.</p>
-		<div id="countdown" class="countdown">
-			<div class="timebox"><div class="num" id="days">--</div><div class="lbl">Days</div></div>
-			<div class="timebox"><div class="num" id="hours">--</div><div class="lbl">Hours</div></div>
-			<div class="timebox"><div class="num" id="minutes">--</div><div class="lbl">Minutes</div></div>
-			<div class="timebox"><div class="num" id="seconds">--</div><div class="lbl">Seconds</div></div>
-		</div>
-		<div style="text-align:center">
-			<button id="celebrateBtn">Let's celebrate the bday</button>
-		</div>
-
-		<!-- Modal popup for full countdown to Feb 28 2026 -->
-		<div id="modalOverlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.45);align-items:center;justify-content:center;z-index:9998">
-			<div id="modal" style="background:white;padding:22px 26px;border-radius:12px;max-width:520px;width:92%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.18)">
-				<h3 style="margin:6px 0 8px 0;color:var(--accent)">Wait — time until the birthday</h3>
-				<p id="modalMsg" style="color:#444;margin:6px 0 12px 0">Wait this much time to celebrate the bday</p>
-				<div style="display:flex;gap:10px;justify-content:center;margin-bottom:12px">
-					<div style="background:#fff;border-radius:10px;padding:10px 12px;min-width:76px;box-shadow:0 6px 18px rgba(0,0,0,0.06)"><div id="modalDays" style="font-weight:800;font-size:18px">--</div><div style="font-size:12px;color:#888">Days</div></div>
-					<div style="background:#fff;border-radius:10px;padding:10px 12px;min-width:76px;box-shadow:0 6px 18px rgba(0,0,0,0.06)"><div id="modalHours" style="font-weight:800;font-size:18px">--</div><div style="font-size:12px;color:#888">Hours</div></div>
-					<div style="background:#fff;border-radius:10px;padding:10px 12px;min-width:76px;box-shadow:0 6px 18px rgba(0,0,0,0.06)"><div id="modalMinutes" style="font-weight:800;font-size:18px">--</div><div style="font-size:12px;color:#888">Minutes</div></div>
-					<div style="background:#fff;border-radius:10px;padding:10px 12px;min-width:76px;box-shadow:0 6px 18px rgba(0,0,0,0.06)"><div id="modalSeconds" style="font-weight:800;font-size:18px">--</div><div style="font-size:12px;color:#888">Seconds</div></div>
-				</div>
-				<div style="display:flex;gap:10px;justify-content:center">
-					<button id="modalClose" style="padding:8px 14px;border-radius:8px;border:none;background:linear-gradient(90deg,var(--accent),var(--accent2));color:white;cursor:pointer;font-weight:600;box-shadow:0 6px 18px rgba(165,92,255,0.12)">Close</button>
-				</div>
-			</div>
-		</div>
-		<div id="after" class="message"></div>
-		<div class="gift">
-			<div class="cake"></div>
-			<div class="footer">With love, Nayan — Wishing you the brightest year ahead</div>
-		</div>
-	</div>
-	<canvas id="confetti" class="confetti-canvas"></canvas>
-	<script>
-		// Disable right-click
-		document.addEventListener('contextmenu', (e) => e.preventDefault());
-		
-		const target = new Date('2026-02-28T00:00:00');
-		const daysEl = document.getElementById('days');
-		const hoursEl = document.getElementById('hours');
-		const minsEl = document.getElementById('minutes');
-		const secsEl = document.getElementById('seconds');
-		const btn = document.getElementById('celebrateBtn');
-		const after = document.getElementById('after');
-
-		function updateCountdown(){
-			const now = new Date();
-			let diff = target - now;
-			if(diff <= 0){
-				daysEl.textContent = '00'; hoursEl.textContent='00'; minsEl.textContent='00'; secsEl.textContent='00';
-				return;
-			}
-			const d = Math.floor(diff / (1000*60*60*24)); diff -= d*1000*60*60*24;
-			const h = Math.floor(diff / (1000*60*60)); diff -= h*1000*60*60;
-			const m = Math.floor(diff / (1000*60)); diff -= m*1000*60;
-			const s = Math.floor(diff / 1000);
-			daysEl.textContent = String(d).padStart(2,'0');
-			hoursEl.textContent = String(h).padStart(2,'0');
-			minsEl.textContent = String(m).padStart(2,'0');
-			secsEl.textContent = String(s).padStart(2,'0');
-		}
-		setInterval(updateCountdown,1000); updateCountdown();
-
-		// Confetti canvas simple emitter
-		const canvas = document.getElementById('confetti');
-		const ctx = canvas.getContext('2d');
-		let W = canvas.width = window.innerWidth; let H = canvas.height = window.innerHeight;
-		window.addEventListener('resize',()=>{W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight});
-		function startConfetti(duration=6000){
-			const colors = ['#A55CFF','#FF86D6','#FFD8A8','#6BCBFF','#C77DFF'];
-			const pieces = [];
-			for(let i=0;i<140;i++) pieces.push({x:Math.random()*W,y:Math.random()*-H,vy:2+Math.random()*6,vx:(Math.random()-.5)*3,r:6+Math.random()*8,color:colors[Math.floor(Math.random()*colors.length)],rot:Math.random()*360,vr:(Math.random()-.5)*10});
-			const start = performance.now();
-			function frame(now){
-				const elapsed = now - start; ctx.clearRect(0,0,W,H);
-				for(const p of pieces){p.x+=p.vx;p.y+=p.vy;p.rot+=p.vr*0.1;p.vy+=0.02;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.rot*Math.PI/180);ctx.fillStyle=p.color;ctx.fillRect(-p.r/2,-p.r/2,p.r,p.r*0.6);ctx.restore()}
-				if(elapsed<duration) requestAnimationFrame(frame); else ctx.clearRect(0,0,W,H);
-			}
-			requestAnimationFrame(frame);
-		}
-
-		function playTune(){
-			try{const a=new (window.AudioContext||window.webkitAudioContext)();const notes=[523,659,784,1046,784,659,523];let t=a.currentTime;for(let n of notes){const o=a.createOscillator(),g=a.createGain();o.type='sine';o.frequency.value=n;g.gain.value=0.08;o.connect(g);g.connect(a.destination);o.start(t);o.stop(t+0.28);t+=0.28}}catch(e){}
-		}
-
-		btn.addEventListener('click',()=>{
-			// Show modal with the full countdown to Feb 28 2026
-			openModalCountdown();
-		});
-
-		// Modal countdown logic
-		const modalOverlay = document.getElementById('modalOverlay');
-		const modalDays = document.getElementById('modalDays');
-		const modalHours = document.getElementById('modalHours');
-		const modalMinutes = document.getElementById('modalMinutes');
-		const modalSeconds = document.getElementById('modalSeconds');
-		const modalMsg = document.getElementById('modalMsg');
-		const modalClose = document.getElementById('modalClose');
-
-		let modalIv = null;
-
-		function updateModalCountdown(){
-			const now = new Date();
-			let diff = target - now;
-			if(diff <= 0){
-				modalDays.textContent = '00'; modalHours.textContent='00'; modalMinutes.textContent='00'; modalSeconds.textContent='00';
-				modalMsg.textContent = 'Timer ended — you are ready to celebrate!';
-				clearInterval(modalIv);
-				// Automatically close modal and start celebration when timer ends
-				closeModal();
-				after.innerHTML = `<h2 style="margin:6px 0">Happy Birthday, Sneha!</h2><p style="color:#555;margin:6px 0">May your day be filled with laughter, surprises and all the smiles you give others.</p>`;
-				startConfetti(8000); playTune(); btn.disabled=true; btn.textContent='Celebrating...';
-				return;
-			}
-			const d = Math.floor(diff / (1000*60*60*24)); diff -= d*1000*60*60*24;
-			const h = Math.floor(diff / (1000*60*60)); diff -= h*1000*60*60;
-			const m = Math.floor(diff / (1000*60)); diff -= m*1000*60;
-			const s = Math.floor(diff / 1000);
-			modalDays.textContent = String(d).padStart(2,'0');
-			modalHours.textContent = String(h).padStart(2,'0');
-			modalMinutes.textContent = String(m).padStart(2,'0');
-			modalSeconds.textContent = String(s).padStart(2,'0');
-			modalMsg.textContent = 'Wait this much time to celebrate the bday';
-		}
-
-		function openModalCountdown(){
-			modalOverlay.style.display = 'flex';
-			updateModalCountdown();
-			modalIv = setInterval(updateModalCountdown,1000);
-		}
-
-		function closeModal(){
-			modalOverlay.style.display = 'none';
-			if(modalIv) { clearInterval(modalIv); modalIv = null; }
-		}
-
-		modalClose.addEventListener('click', closeModal);
-		modalOverlay.addEventListener('click', (e)=>{ if(e.target === modalOverlay) closeModal(); });
-	</script>
+    <div class="container">
+        <h1>Official Notice</h1>
+        <p>This page has been officially closed by the owner, Nayan Gupta.<br>
+        The decision has been made due to personal reasons.</p>
+        <div class="divider"></div>
+        <p>This page does not claim ownership of any external content,<br>
+        nor does it contain copyright violations.</p>
+        <p>For any inquiries or to request access to previous page details,<br>
+        kindly contact the owner directly.</p>
+        <div class="divider"></div>
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p><a class="whatsapp-button" href="https://wa.me/919586212310" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.149-.198.297-.768.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.497.099-.198.05-.372-.025-.521-.075-.149-.672-1.611-.921-2.207-.242-.579-.487-.5-.672-.51l-.572-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.693.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.273-.198-.57-.347z" />
+                        <path d="M12.004 2.003C6.476 2.003 2 6.48 2 12.009c0 2.121.554 4.096 1.516 5.797L2 22l4.321-1.427c1.684.922 3.58 1.438 5.683 1.438 5.528 0 10.004-4.477 10.004-10.004S17.532 2.003 12.004 2.003zm0 18.017c-1.958 0-3.783-.609-5.311-1.652l-.379-.225-2.564.846.863-2.494-.247-.404a8.962 8.962 0 01-1.399-4.647c0-4.958 4.046-9.004 9.004-9.004s9.004 4.046 9.004 9.004-4.046 9.004-9.004 9.004z" />
+                    </svg>
+                    WhatsApp
+                </a></p>
+            <p><a class="instagram-button" href="https://www.instagram.com/_nayannn_2_/" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.337 3.608 1.312.975.975 1.25 2.242 1.312 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.337 2.633-1.312 3.608-.975.975-2.242 1.25-3.608 1.312-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.337-3.608-1.312-.975-.975-1.25-2.242-1.312-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.849c.062-1.366.337-2.633 1.312-3.608.975-.975 2.242-1.25 3.608-1.312C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.07 5.771.128 4.605.388 3.62 1.373 2.636 2.358 2.376 3.525 2.318 4.805.012 5.085 0 8.333 0 12s.012 6.915.07 7.205c.058 1.28.318 2.447 1.303 3.432.985.985 2.152 1.245 3.432 1.303C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.28-.058 2.447-.318 3.432-1.303.985-.985 1.245-2.152 1.303-3.432.058-1.28.07-1.689.07-4.948s-.012-3.668-.07-4.948c-.058-1.28-.318-2.447-1.303-3.432-.985-.985-2.152-1.245-3.432-1.303C15.668.012 15.259 0 12 0z" />
+                        <path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998z" />
+                        <circle cx="18.406" cy="5.594" r="1.44" />
+                    </svg>
+                    Instagram
+                </a></p>
+        </div>
+        <footer>
+            <p>© 2026 Nayan Gupta. All Rights Reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
-
